@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_bg"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/backgroud_white_gray"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="4" >
+
+            <ImageView
+                android:layout_width="120px"
+                android:layout_height="120px"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15px"
+                android:contentDescription="@string/userInfo"
+                android:src="@drawable/icon_user"
+                android:scaleType="fitXY"
+                android:id="@+id/info_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_icon"
+                android:textColor="@color/text_black"
+                android:text="@string/info_english_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:id="@+id/info_english_name"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/info_english_name"
+                android:textColor="@color/text_black"
+                android:text="@string/info_birthday"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:textSize="14dp"
+                android:id="@+id/info_birthday"
+                android:gravity="center"
+                />
+        </RelativeLayout>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:paddingTop="15dp"
+            android:scrollbars="none"
+            >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baseInfo"
+                android:textColor="@color/text_menu_gray"
+                android:textSize="16dp"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_menu_gray"
+                android:layout_marginBottom="20dp"
+                ></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userName"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+
+                    android:id="@+id/info_name" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userAccount"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_account_no"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userSchool"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_school"
+                    />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userAddress"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_address"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userQQ"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_qq"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userEmail"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_email"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/userPhone"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:padding="3dp"
+                    android:id="@+id/info_phone"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hobbyInfo"
+                android:textColor="@color/text_menu_gray"
+                android:layout_marginTop="20dp"
+                android:textSize="16dp"
+                />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/text_menu_gray"
+                android:layout_marginBottom="20dp"
+                ></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/hobby"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:singleLine="false"
+                    android:padding="3dp"
+                    android:id="@+id/info_hobby"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="4"
+                    android:text="@string/special_skill"
+                    android:textColor="@color/text_menu_gray" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/video_list_length_bg"
+                    android:inputType="text"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_menu_gray"
+                    android:singleLine="false"
+                    android:padding="3dp"
+                    android:id="@+id/info_special_skill"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

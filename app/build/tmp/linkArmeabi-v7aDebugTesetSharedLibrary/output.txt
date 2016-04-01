@@ -1,0 +1,22 @@
+See file:///E:/workspace/oc-student-android/app/build/tmp/linkArmeabi-v7aDebugTesetSharedLibrary/output.txt for all output for linkArmeabi-v7aDebugTesetSharedLibrary.
+linking libteset.so failed.
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:49: error: undefined reference to 'av_register_all'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:51: error: undefined reference to 'avcodec_find_decoder'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:56: error: undefined reference to 'avcodec_alloc_context3'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:62: error: undefined reference to 'avcodec_open2'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:67: error: undefined reference to 'avcodec_alloc_frame'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:72: error: undefined reference to 'av_parser_init'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:74: error: undefined reference to 'av_init_packet'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:75: error: undefined reference to 'avcodec_alloc_frame'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:97: error: undefined reference to 'avcodec_decode_video2'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:101: error: undefined reference to 'sws_getContext'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:106: error: undefined reference to 'avpicture_fill'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:108: error: undefined reference to 'sws_scale'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:131: error: undefined reference to 'sws_freeContext'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:133: error: undefined reference to 'av_free'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:134: error: undefined reference to 'av_free'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:139: error: undefined reference to 'avcodec_close'
+E:\workspace\oc-student-android\app\src\main\jni/s_android_ffmpeg_FFmpegNative.c:140: error: undefined reference to 'av_free'
+collect2.exe: error: ld returned 1 exit status
+
+Finished linkArmeabi-v7aDebugTesetSharedLibrary, see full log file:///E:/workspace/oc-student-android/app/build/tmp/linkArmeabi-v7aDebugTesetSharedLibrary/output.txt.

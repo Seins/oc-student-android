@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+            android:angle="0"
+            android:centerColor="@color/background_white"
+            android:endColor="@color/background_white"
+            android:gradientRadius="0"
+            android:startColor="@color/background_white"
+            android:type="linear"
+            android:useLevel="false" />
+            <stroke android:color="@color/backgroud_white_gray" android:dashGap="0dp" android:dashWidth="1px" android:width="1dp"></stroke>
+            <solid android:color="@color/backgroud_white_gray" ></solid>
+        </shape>
+    </item>
+</selector><!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/drawable-ldpi/background_menu_main.xml -->

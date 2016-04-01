@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/blue_bg"
+                android:endColor="@color/blue_bg"
+                android:startColor="@color/blue_bg" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape>
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/lightseagreen"
+                android:endColor="@color/lightseagreen"
+                android:startColor="@color/lightseagreen" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:angle="270"
+                android:centerColor="@color/blue_bg"
+                android:endColor="@color/blue_bg"
+                android:startColor="@color/blue_bg" />
+        </shape>
+    </item>
+</selector><!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/drawable-ldpi/tabfootbg.xml -->

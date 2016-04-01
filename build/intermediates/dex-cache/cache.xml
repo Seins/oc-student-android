@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\workspace\oc-student-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-6dcc78ff65aca688eeb1c563f23501e3533caea5.jar" />
+    </item>
+    <item
+        jar="E:\workspace\oc-student-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\classes-65ad5c44cb7ba64c8deadcbeab4d88f713a258ed.jar" />
+    </item>
+    <item
+        jar="E:\workspace\oc-student-android\app\libs\libaac.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1e4b5937e824f0fc4663a1670a20e3be46cb7507">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\libaac-d82f09afe894bcc595b77e18e20595eb7809cfd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\dengfs\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpmime\4.5.1\96823b9421ebb9f490dec837d9f96134e864e3a7\httpmime-4.5.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="96823b9421ebb9f490dec837d9f96134e864e3a7">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\httpmime-4.5.1-07277b470cd7f7a325d089776ec7646d05135ca3.jar" />
+    </item>
+    <item
+        jar="E:\workspace\oc-student-android\app\libs\fastjson-1.2.7.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a5c721e8ea1e18854272879d6ed2770d25feb342">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\fastjson-1.2.7-8a92fa8501a123b4d9f8f8872a72385736626cf1.jar" />
+    </item>
+    <item
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="E:\workspace\oc-student-android\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-c820c2757b9c153a2fdd49f347072aa131e38fe7.jar" />
+    </item>
+
+</items>

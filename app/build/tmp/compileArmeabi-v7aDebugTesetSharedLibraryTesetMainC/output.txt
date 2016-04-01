@@ -1,0 +1,11 @@
+See file:///E:/workspace/oc-student-android/app/build/tmp/compileArmeabi-v7aDebugTesetSharedLibraryTesetMainC/output.txt for all output for compileArmeabi-v7aDebugTesetSharedLibraryTesetMainC.
+compiling s_android_ffmpeg_FFmpegNative.c successful.
+E:\workspace\oc-student-android\app\src\main\jni\s_android_ffmpeg_FFmpegNative.c: In function 'Java_s_android_ffmpeg_FFmpegNative_decoderInit':
+E:\workspace\oc-student-android\app\src\main\jni\s_android_ffmpeg_FFmpegNative.c:67:5: warning: 'avcodec_alloc_frame' is deprecated (declared at E:\workspace\oc-student-android\app\src\main\jni\libavcodec/avcodec.h:3422) [-Wdeprecated-declarations]
+     g_pavfFrame = avcodec_alloc_frame();
+     ^
+E:\workspace\oc-student-android\app\src\main\jni\s_android_ffmpeg_FFmpegNative.c:75:5: warning: 'avcodec_alloc_frame' is deprecated (declared at E:\workspace\oc-student-android\app\src\main\jni\libavcodec/avcodec.h:3422) [-Wdeprecated-declarations]
+     picture = avcodec_alloc_frame();
+     ^
+
+Finished compileArmeabi-v7aDebugTesetSharedLibraryTesetMainC, see full log file:///E:/workspace/oc-student-android/app/build/tmp/compileArmeabi-v7aDebugTesetSharedLibraryTesetMainC/output.txt.

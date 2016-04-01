@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="#afffffff" />
+            <gradient android:angle="0" android:centerColor="#50ffffff" android:endColor="#80ffffff" android:startColor="#bfffffff" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#80ffffff" />
+            <gradient android:angle="0" android:centerColor="#50ffffff" android:endColor="#80ffffff" android:startColor="#20ffffff" />
+        </shape>
+    </item>
+</selector><!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/drawable-ldpi/gridview_item_bg.xml -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alpha
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:startOffset="500"
+    android:fromAlpha="1.0"
+    android:toAlpha="0.0"
+    android:duration="500"
+    >
+</alpha>
+<!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/anim/alpha_normal.xml -->

@@ -1,0 +1,2 @@
+set solib-search-path E:\workspace\oc-student-android\app\build\intermediates\binaries\debug\lib\armeabi-v7a
+directory C:\Users\dengfs\Downloads\android-ndk-r10e/platforms/android-19/arch-arm/usr/include E:\workspace\oc-student-android\app\src\debug\jni E:\workspace\oc-student-android\app\src\ffmpeg_codec\c C:\Users\dengfs\Downloads\android-ndk-r10e\sources\cxx-stl/system/include E:\workspace\oc-student-android\app\src\main\jni E:\workspace\oc-student-android\app\src\ffmpeg_codec\cpp

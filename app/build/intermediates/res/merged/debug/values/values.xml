@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <array name="navigation">
+        <item>在线教室</item>
+        <item>课程列表</item>
+        <item>个人信息</item>
+        <item>设置</item>
+    </array>
+    <!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/values/custom_colors.xml -->
+    <eat-comment/>
+    <color name="backgroud_white_gray">#efefef</color>
+    <color name="background_blue">#58A7D4</color>
+    <color name="background_blue_dark">#629AA4</color>
+    <color name="background_blue_light">#9FCFD1</color>
+    <color name="background_green">#58D48A</color>
+    <color name="background_orange">#F0A664</color>
+    <color name="background_orange_light">#E9E5DD</color>
+    <color name="background_red">#E05D84</color>
+    <color name="background_red_orange_normal">#B16A6C</color>
+    <color name="background_white">#ffefefef</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="blue_bg">#0099cc</color>
+    <color name="darkseagreen">#384767</color>
+    <color name="gray_text">#cccccc</color>
+    <color name="green_bg">#aa27E2C1</color>
+    <color name="light_gray_bg">#efefef</color>
+    <color name="lightseagreen">#20b2aa</color>
+    <color name="text_black">#333333</color>
+    <color name="text_dack_blue">#4E7D86</color>
+    <color name="text_menu_gray">#868687</color>
+    <color name="text_red">#ff0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_transparent">#80ffffff</color>
+    <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
+    <!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">2dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="content_margin_horizontal">20dp</dimen>
+    <dimen name="content_margin_vertical">20dp</dimen>
+    <dimen name="content_padding_horizontal">20dp</dimen>
+    <dimen name="content_padding_vertical">10dp</dimen>
+    <dimen name="navigation_item_margin_horizontal">2dp</dimen>
+    <dimen name="navigation_item_margin_vertical">5dp</dimen>
+    <dimen name="navigation_item_padding_horizontal">5dp</dimen>
+    <dimen name="navigation_item_padding_vertical">10dp</dimen>
+    <!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="appLoginTitle">-登陆-</string>
+    <string name="app_name">学立方在线教育平台</string>
+    <string name="baseInfo">基础信息：</string>
+    <string name="borwer_report">查看教学报告</string>
+    <string name="class_rest_time">剩余时间</string>
+    <string name="curriculum">课表</string>
+    <string name="dummy_button">开始解码</string>
+    <string name="dummy_content">主要区域</string>
+    <string name="enter_class">进入教室</string>
+    <string name="hobby">兴趣爱好：</string>
+    <string name="hobbyInfo">其它信息：</string>
+    <string name="info_birthday">1992-12-25</string>
+    <string name="info_english_name">English Name</string>
+    <string name="inviteCodeTip">输入邀请码进入教室</string>
+    <string name="lessonContent">课程名称</string>
+    <string name="lessonHistory">上课情况记录</string>
+    <string name="lessonStatus">操作</string>
+    <string name="lessonTime">课程类型</string>
+    <string name="loginButton">登陆</string>
+    <string name="loginName">登陆名:</string>
+    <string name="loginNameHint">输入你的登陆名</string>
+    <string name="loginPasswordHint">输入你的密码</string>
+    <string name="loginTip">注意事项:\n \t1.使用本产品默认同意学立方所发布的关于在线教育平台的使用协议.\n \t2.祝您使用本应用学习愉快，学有所成.</string>
+    <string name="logout">注销登录</string>
+    <string name="menu_user_account">用户账号</string>
+    <string name="menu_user_name">用户姓名</string>
+    <string name="myCurriculums">课程管理</string>
+    <string name="navigationImageDesc">导航卡片</string>
+    <string name="navigationTitle">导航标题</string>
+    <string name="onlineRoom">教室</string>
+    <string name="password">登陆密码:</string>
+    <string name="schedule">我的课程表</string>
+    <string name="special_skill">特殊技能：</string>
+    <string name="special_still">特殊技巧：</string>
+    <string name="teachingReport">教学报告查询</string>
+    <string name="userAccount">账号：</string>
+    <string name="userAddress">联系地址：</string>
+    <string name="userEmail">联系邮箱：</string>
+    <string name="userGrade">年级：</string>
+    <string name="userInfo">个人信息</string>
+    <string name="userName">姓名：</string>
+    <string name="userPhone">个人手机：</string>
+    <string name="userQQ">qq：</string>
+    <string name="userSchool">学校：</string>
+    <string name="userinfo">我</string>
+    <!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+    <style name="ButtonBarButton"/>
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="buttonBarStyle">@style/ButtonBar</item>
+        <item name="buttonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+    <style name="Linearlayout_Style">
+        <item name="android:orientation">vertical</item>       
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">LayoutOnclick</item>
+ 	</style>
+    <style name="Widget.SeekBar.Normal" parent="@android:style/Widget.SeekBar">
+        <item name="android:maxHeight">8.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/seekbar_horizontal</item>
+        <item name="android:minHeight">8.0dip</item>
+        <item name="android:thumb">@drawable/seekbar_thumb_circle</item>
+        <item name="android:thumbOffset">10.0dip</item>
+    </style>
+</resources>

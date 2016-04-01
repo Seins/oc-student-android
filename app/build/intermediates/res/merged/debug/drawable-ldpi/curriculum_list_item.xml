@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape>
+            <solid android:color="#ffffff" />
+
+            <stroke android:dashWidth="0.5dip" android:width="0.5dip" android:color="#cccccc" />
+
+            <gradient android:angle="0" android:endColor="#efefef" android:centerColor="#efefef" android:startColor="#efefef" />
+        </shape>
+    </item>
+</selector>
+<!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/drawable-ldpi/curriculum_list_item.xml -->

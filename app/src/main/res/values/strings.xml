@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">学立方在线教育平台</string>
+    <string name="dummy_button">开始解码</string>
+    <string name="dummy_content">主要区域</string>
+    <string name="class_rest_time">剩余时间</string>
+    
+    <!-- Login Activity -->
+    <string name="appLoginTitle">-登陆-</string>
+    <string name="loginName">登陆名:</string>
+    <string name="password">登陆密码:</string>
+    <string name="loginNameHint">输入你的登陆名</string>
+    <string name="loginPasswordHint">输入你的密码</string>
+    <string name="loginButton">登陆</string>
+    <string name="loginTip">注意事项:\n \t1.使用本产品默认同意学立方所发布的关于在线教育平台的使用协议.\n \t2.祝您使用本应用学习愉快，学有所成.</string>
+	
+    <string name="onlineRoom">教室</string>
+    <string name="curriculum">课表</string>
+    <string name="userinfo">我</string>
+    
+    <string name="myCurriculums">课程管理</string>
+    <string name="lessonTime">课程类型</string>
+    <string name="lessonContent">课程名称</string>
+    <string name="lessonStatus">操作</string>
+    <string name="inviteCodeTip">输入邀请码进入教室</string>
+    
+    <string name="logout">注销登录</string>
+    
+    
+    <!-- menu -->
+    <string name="userInfo">个人信息</string>
+    <string name="schedule">我的课程表</string>
+    <string name="lessonHistory">上课情况记录</string>
+    <string name="teachingReport">教学报告查询</string>
+    
+    <!-- User Infomation -->
+    <string name="userName">姓名：</string>
+    <string name="userAccount">账号：</string>
+    <string name="userGrade">年级：</string>
+    <string name="userAddress">联系地址：</string>
+    <string name="userEmail">联系邮箱：</string>
+    <string name="userPhone">个人手机：</string>
+    <string name="navigationTitle">导航标题</string>
+    <string name="navigationImageDesc">导航卡片</string>
+    <string name="menu_user_name">用户姓名</string>
+    <string name="menu_user_account">用户账号</string>
+    <string name="enter_class">进入教室</string>
+    <string name="borwer_report">查看教学报告</string>
+    <string name="baseInfo">基础信息：</string>
+    <string name="hobbyInfo">其它信息：</string>
+    <string name="info_english_name">English Name</string>
+    <string name="hobby">兴趣爱好：</string>
+    <string name="info_birthday">1992-12-25</string>
+    <string name="userSchool">学校：</string>
+    <string name="special_still">特殊技巧：</string>
+    <string name="special_skill">特殊技能：</string>
+    <string name="userQQ">qq：</string>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false"><shape>
+            <solid android:color="#77efefef" />
+
+
+            <gradient android:angle="0" android:centerColor="#77efefef" android:endColor="#77efefef" android:startColor="#77efefef" />
+
+            <corners android:radius="0dip" />
+        </shape></item>
+    <item android:state_pressed="true"><shape>
+            <solid android:color="#80000000" />
+
+            <stroke android:dashWidth="0.5dip" android:width="0.5dip" android:color="#80000000" />
+
+            <gradient android:angle="0" android:centerColor="#80000000" android:endColor="#80000000" android:startColor="#80000000" />
+
+            <corners android:radius="0dip" />
+        </shape></item>
+
+</selector>
+<!-- From: file:/E:/workspace/oc-student-android/app/src/main/res/drawable-ldpi/video_list_length_bg.xml -->

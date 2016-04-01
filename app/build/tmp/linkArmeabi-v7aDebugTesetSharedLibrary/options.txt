@@ -1,0 +1,14 @@
+-shared
+-Wl,-soname,libteset.so
+-o
+E:\\workspace\\oc-student-android\\app\\build\\intermediates\\binaries\\debug\\obj\\armeabi-v7a\\libteset.so
+E:\\workspace\\oc-student-android\\app\\build\\intermediates\\objectFiles\\armeabi-v7aDebugTesetSharedLibrary\\tesetMainC\\dmyaf3x0usr2cm0h5g7qbdx18\\s_android_ffmpeg_FFmpegNative.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\dengfs\\Downloads\\android-ndk-r10e/platforms/android-19/arch-arm
+-Wl,--build-id
+-no-canonical-prefixes
+-landroid
+-llog

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/onlineClassRoomFg_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+     >
+
+	<EditText
+	    android:id="@+id/inviteCode"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:hint="@string/inviteCodeTip"
+	    android:textSize="18sp" />
+
+	<ImageButton
+	    android:id="@+id/startBtn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="80dp"
+	    android:layout_centerVertical="true"
+	    android:layout_marginLeft="20dp"
+        android:layout_below="@+id/inviteCode"
+	    android:contentDescription="@string/inviteCodeTip"
+	    android:src="@drawable/icon_invite"
+        android:layout_centerHorizontal="true"
+	    android:background="@drawable/button_logout_bg"
+	     />
+
+</RelativeLayout>

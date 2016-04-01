@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_online"
+    tools:context=".MainActivity"
+    android:orientation="vertical" 
+    android:id="@+id/contentRL"
+    >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="38dp"
+        android:layout_alignParentTop="true"
+        android:background="#aa000000"
+        android:id="@+id/courseTitle"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:text="课程名称"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:id="@+id/courseName"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="38dp"
+        android:layout_alignParentBottom="true"
+        android:background="#aa000000"
+        android:id="@+id/time_task"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="00:14:39"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="#ffffffff"
+            android:id="@+id/timeTv" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:text="音量："
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/volumeTv"
+            android:textColor="#ffffffff"/>
+        <SeekBar
+            style="@style/Widget.SeekBar.Normal"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/volumeSb"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/volumeTv"
+            android:indeterminate="false" />
+
+    </RelativeLayout>
+</RelativeLayout>
